@@ -1,0 +1,34 @@
+.contedorPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: red;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedorUno {
+  height: 20rem;
+  width: 65rem;
+  padding-top: 4rem;
+}
+
+.contenedorDos img {
+  width: 35rem;
+  margin-left: 2rem;
+  padding-top: 4rem;
+}
+
+.contenedortres img {
+  width: 33rem;
+  height: 20rem;
+  padding-top: 4rem;
+}
+
+.contenedorCuatro {
+  width: 35rem;
+  height: 20rem;
+  padding-top: 4rem;
+}
+/*# sourceMappingURL=diciplinas.css.map */

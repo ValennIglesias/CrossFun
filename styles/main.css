@@ -1,12 +1,46 @@
+.contedorPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedorUno {
+  height: 20rem;
+  width: 65rem;
+  padding-top: 4rem;
+}
+
+.contenedorDos img {
+  width: 35rem;
+  margin-left: 3rem;
+  padding-top: 4rem;
+}
+
+.contenedortres img {
+  width: 34rem;
+  height: 24rem;
+  padding-top: 4rem;
+  margin-right: 2rem;
+}
+
+.contenedorCuatro {
+  width: 35rem;
+  height: 20rem;
+  padding-top: 4rem;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   z-index: 100;
   position: -webkit-sticky;
   position: sticky;
@@ -23,8 +57,8 @@ header {
 nav {
   padding: 10px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav a {
@@ -54,11 +88,11 @@ h4 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 40% 40%;
-  grid-template-columns: 40% 40%;
+      grid-template-columns: 40% 40%;
   justify-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 7rem 0;
 }
 
@@ -84,10 +118,10 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 20px;
 }
 
@@ -109,7 +143,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   background-color: black;
   color: white;
   padding: 25px;
@@ -122,35 +156,4 @@ footer {
   display: -ms-flexbox;
   display: flex;
 }
-
-.contedorPrincipal {
-  display: flex;
-  background-color: aqua;
-  justify-content: space-between;
-}
-.contenedorUno {
-  height: 20rem;
-  width: 65rem;
-  padding-top: 4rem;
-}
-
-.contenedorDos img {
-  width: 35rem;
-  margin-left: 2rem;
-  padding-top: 4rem;
-}
-
-.contenedortres img {
-  width: 33rem;
-
-  height: 20rem;
-  padding-top: 4rem;
-}
-
-.contenedorCuatro {
-  width: 35rem;
-  height: 20rem;
-  padding-top: 4rem;
-}
-
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.css.map */
